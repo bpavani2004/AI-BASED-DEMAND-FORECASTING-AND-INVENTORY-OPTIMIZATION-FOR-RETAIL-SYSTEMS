@@ -1,0 +1,21 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "development": false,
+        "importSource": "react"
+      }
+    },
+    "target": "es2020"
+  },
+  "module": {
+    "type": "es6"
+  },
+  "minify": true
+}
